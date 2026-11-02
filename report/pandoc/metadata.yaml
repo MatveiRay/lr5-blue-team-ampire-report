@@ -1,0 +1,24 @@
+documentclass: article
+fontsize: 12pt
+papersize: a4
+geometry:
+  - left=25mm
+  - right=20mm
+  - top=20mm
+  - bottom=20mm
+mainfont: Liberation Serif
+sansfont: Liberation Sans
+monofont: DejaVu Sans Mono
+linestretch: 1.15
+colorlinks: false
+link-citations: true
+figPrefix: рисунок
+tblPrefix: таблица
+figureTitle: Рисунок
+tableTitle: Таблица
+titleDelim: ' —'
+linkReferences: true
+cref: false
+header-includes:
+  - |
+    \input{pandoc/header.tex}

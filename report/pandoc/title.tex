@@ -1,0 +1,30 @@
+\begin{titlepage}
+\thispagestyle{empty}
+\begin{tikzpicture}[remember picture,overlay]
+  \node[anchor=north,align=center,text width=165mm,inner sep=0pt,
+    font=\fontsize{14}{24}\selectfont]
+    at ([xshift=107.5mm,yshift=-8mm]current page.north west)
+    {\textbf{\ReportUniversity}\\\ReportFaculty\\\ReportDepartment};
+  \node[anchor=north,inner sep=0pt,font=\fontsize{26}{32}\selectfont\bfseries]
+    at ([xshift=107.5mm,yshift=-72mm]current page.north west) {ОТЧЕТ};
+  \node[anchor=north,inner sep=0pt,font=\fontsize{14}{20}\selectfont\bfseries]
+    at ([xshift=107.5mm,yshift=-90mm]current page.north west)
+    {ПО ЛАБОРАТОРНОЙ РАБОТЕ № \ReportLabNumber};
+  \node[anchor=north,align=center,text width=165mm,inner sep=0pt,
+    font=\fontsize{26}{33}\selectfont\bfseries]
+    at ([xshift=107.5mm,yshift=-108mm]current page.north west)
+    {\ReportCoverLineOne\\\ReportCoverLineTwo};
+  \node[anchor=north,inner sep=0pt,font=\fontsize{16}{22}\selectfont\itshape]
+    at ([xshift=107.5mm,yshift=-140mm]current page.north west) {\ReportType};
+  \node[anchor=north west,align=left,text width=88mm,inner sep=0pt,
+    font=\fontsize{14}{20}\selectfont]
+    at ([xshift=102mm,yshift=-180mm]current page.north west)
+    {\textbf{Выполнили}\\[3pt]\ReportAuthors
+      \vspace{6pt}Группа \ReportGroup\par
+      \vspace{12pt}Дата выполнения\par\ReportDate};
+  \node[anchor=south,align=center,inner sep=0pt,font=\fontsize{14}{20}\selectfont]
+    at ([xshift=107.5mm,yshift=5mm]current page.south west) {\ReportCity\\\ReportYear};
+\end{tikzpicture}
+\null
+\end{titlepage}
+\setcounter{page}{2}
